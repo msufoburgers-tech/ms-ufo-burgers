@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>UFO Burger — Order Now</title>
+  <style>
+    body {
+      background: #0b0b0b;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+      padding: 24px;
+      border-radius: 12px;
+      width: 360px;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+    }
+    img.logo {
+      width: 180px;
+      height: auto;
+      margin: 6px auto 12px;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 6px 0;
+      letter-spacing: 1px;
+    }
+    p.lead {
+      margin: 6px 0 18px;
+      color: #ffb86b;
+      font-weight: 600;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    a.btn {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    a.swiggy { background: linear-gradient(90deg,#ff5a00,#ff8a00); color:#fff; }
+    a.zomato { background: linear-gradient(90deg,#ff3b30,#ff6b61); color:#fff; }
+    a.whatsapp { background: linear-gradient(90deg,#25D366,#1DA851); color:#fff; }
+    .note { font-size:12px; color:#bdbdbd; margin-top:14px; }
+    .footer { margin-top:10px; font-size:12px; color:#999; }
+    @media (min-width:700px) {
+      .card { width:420px; }
+      img.logo { width:220px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Replace "ufo-logo.png" with your actual logo file path -->
+    <img class="logo" src="ufo-logo.png" alt="UFO Burger Logo" />
+    <h1>WE'RE OPEN — First in Hyderabad 🚀</h1>
+    <p class="lead">Sealed. Fresh. Mess-free. Order now!</p>
+    <div class="buttons">
+      <a class="btn swiggy" href="https://www.swiggy.com/direct/brand/697916?source=swiggy-direct&subSource=generic&utm_source=facebook&utm_medium=cpc&utm_campaign=ufo_opening&utm_content=swiggy_ad1" target="_blank" rel="noopener">Order on Swiggy (Buy 1 Get 1 )</a>
+      <a class="btn zomato" href="https://link.zomato.com/xqzv/rshare?id=118480493305636ec" target="_blank" rel="noopener">Order on Zomato ( 50% off )</a>
+      <a class="btn whatsapp" href="https://wa.me/916301245402?text=Hi%20UFO%20Burger!%20I'd%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp (Only Orders above Rs-700/-)</a>
+    </div>
+    <div class="note">Tip: For pixel tracking & better attribution install Meta Pixel on this page.</div>
+    <div class="footer">UFO Burger — No Mess, Only Bliss<br/>Hyderabad</div>
+  </div>
+</body>
+</html>
